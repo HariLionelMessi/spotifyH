@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: white;
+}
+
+.white-color {
+    color: white;
+}
+.bg-color {
+    background-color: black;
+    color: white;
+}
+.flex {
+    display: flex;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.border {
+    border: 2px solid red;
+    margin: 5px;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.invert {
+    filter: invert(1);
+}
+
+.bg-grey {
+    background-color: #121212;
+    padding: 5px;
+}
+
+.rounded {
+    border-radius: 15px;
+}
+
+.m-1 {
+    margin: 10px 5px;
+}
+
+.p-1 {
+    padding: 1rem;
+}
+
+.cursor {
+    cursor: pointer;
+}

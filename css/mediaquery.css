@@ -1,0 +1,83 @@
+@media (max-width: 1200px) {
+    body {
+        position: relative;
+    }
+
+    .hamburgerClose {
+        display: block;
+    }
+    .left {
+        position: absolute;
+        z-index: 10;
+        left: -5000%;
+        width: 400px;
+        transition: all 0.5s linear;
+        min-height: 100vh;
+    }
+
+    .right {
+        width: 100vw;
+        padding: 10px;
+    }
+
+    .hamburgerMenu {
+        display: block;
+    }
+    .playbar {
+        position: fixed;
+        bottom: 5px;
+    }
+
+}
+
+@media (max-width: 500px) {
+    .songBarHolder {
+        flex-direction: column;
+    }
+    .songName {
+        text-align: center;
+    }
+
+    .playbar {
+        height: 180px;
+        justify-content: space-around;
+    }
+
+    .timeAndvol p {
+        align-self: center;
+    }
+
+    .progressBar {
+        margin: 0 auto;
+        width: 90%
+    }
+
+    .cardContainerwithscroll {
+        padding-bottom: 10rem;
+    }
+}
+
+@media (max-width: 450px) {
+    .left {
+        width: 100%;
+    }
+
+    .library > * {
+        font-size: 13px;
+    }
+
+    .progressBar::-webkit-slider-thumb {
+        width: 15px;
+        height: 15px;
+        border: 2px solid white;
+    }
+}
+
+@media (max-width: 400px) {
+    .songBarHolder {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+
+}
